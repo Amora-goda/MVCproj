@@ -1,0 +1,16 @@
+{
+    "name" : "itrax/freamwork",
+    "description" : "itrax freamwork",
+    "license": "MIT",
+    "type": "framework",
+    "require": {
+        "php":"^7",
+        "wixel/gump": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "itrax\\" : "app"
+        }
+    }
+
+}
